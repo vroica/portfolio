@@ -164,13 +164,17 @@ footer button {
   font-style: normal;
 }
 
-footer button:hover, footer button:active {
+footer button:hover  {
   background-color: #CD0B9F;
   font-size: 1.2rem;
   animation-duration: 3s;
   transition-duration: 500ms;
   transition-property: color text-decoration;
   cursor:pointer;
+}
+
+footer button:active {
+  background-color: #A60B81;
 }
 
 footer {
